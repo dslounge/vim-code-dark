@@ -329,7 +329,7 @@ call <sid>hi('typescriptClassBlock', s:cdLightBlue, {}, 'none', {})
 call <sid>hi('typescriptFuncCallArg', s:cdLightBlue, {}, 'none', {})
 call <sid>hi('typescriptIndexExpr', s:cdLightBlue, {}, 'none', {})
 call <sid>hi('typescriptConditionalParen', s:cdLightBlue, {}, 'none', {})
-call <sid>hi('typescriptArray', s:cdYellow, {}, 'none', {})
+call <sid>hi('typescriptArray', s:cdLightBlue, {}, 'none', {})
 call <sid>hi('typescriptES6SetProp', s:cdLightBlue, {}, 'none', {})
 call <sid>hi('typescriptObjectLiteral', s:cdLightBlue, {}, 'none', {})
 call <sid>hi('typescriptTypeParameter', s:cdBlueGreen, {}, 'none', {})
@@ -350,6 +350,11 @@ call <sid>hi('typescriptAsyncFuncKeyword', s:cdBlue, {}, 'none', {})
 call <sid>hi('typescriptFuncKeyword', s:cdBlue, {}, 'none', {})
 call <sid>hi('typescriptGlobalMethod', s:cdYellow, {}, 'none', {})
 call <sid>hi('typescriptPromiseMethod', s:cdYellow, {}, 'none', {})
+
+" JSX
+call <sid>hi('jsxComponentName', s:cdBlueGreen, {}, 'none', {})
+call <sid>hi('jsxAttrib', s:cdLightBlue, {}, 'none', {})
+call <sid>hi('jsxExpressionBlock', s:cdLightBlue, {}, 'none', {})
 
 " XML:
 call <sid>hi('xmlTag', s:cdBlueGreen, {}, 'none', {})
