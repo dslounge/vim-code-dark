@@ -283,6 +283,23 @@ call <sid>hi('jsObjectKey', s:cdLightBlue, {}, 'none', {})
 call <sid>hi('jsObjectValue', s:cdLightBlue, {}, 'none', {})
 call <sid>hi('jsParen', s:cdLightBlue, {}, 'none', {})
 
+" TypeScript:
+call <sid>hi('typescriptImport', s:cdPink, {}, 'none', {})
+call <sid>hi('typescriptExport', s:cdBlue, {}, 'none', {})
+call <sid>hi('typescriptIdentifierName', s:cdBlue, {}, 'none', {})
+call <sid>hi('typescriptVariable', s:cdBlue, {}, 'none', {})
+call <sid>hi('typescriptVariableDeclaration', s:cdLightBlue, {}, 'none', {})
+call <sid>hi('typescriptObjectLiteral', s:cdLightBlue, {}, 'none', {})
+call <sid>hi('typescriptObjectLabel', s:cdLightBlue, {}, 'none', {})
+call <sid>hi('typescriptInterfaceName', s:cdBlueGreen, {}, 'none', {})
+call <sid>hi('typescriptTypeReference', s:cdBlueGreen, {}, 'none', {})
+call <sid>hi('typescriptClassName', s:cdBlueGreen, {}, 'none', {})
+call <sid>hi('typescriptClassHeritage', s:cdBlueGreen, {}, 'none', {})
+call <sid>hi('typescriptPredefinedType', s:cdBlueGreen, {}, 'none', {})
+call <sid>hi('typescriptMember', s:cdYellow, {}, 'none', {})
+call <sid>hi('typescriptCall', s:cdLightBlue, {}, 'none', {})
+call <sid>hi('typescriptFuncCallArg', s:cdLightBlue, {}, 'none', {})
+
 " XML:
 call <sid>hi('xmlTag', s:cdBlueGreen, {}, 'none', {})
 call <sid>hi('xmlTagName', s:cdBlueGreen, {}, 'none', {})
