@@ -231,6 +231,13 @@ call <sid>hi('markdownUrl', s:cdLightBlue, {}, 'underline', {})
 call <sid>hi('markdownLinkText', s:cdOrange, {}, 'none', {})
 call <sid>hi('markdownEscape', s:cdYellowOrange, {}, 'none', {})
 
+" Actual Markdown:
+call <sid>hi('mkdHeading', s:cdBlue, {}, 'none', {})
+call <sid>hi('htmlH1', s:cdBlue, {}, 'none', {})
+call <sid>hi('htmlH2', s:cdLightGreen, {}, 'none', {})
+call <sid>hi('htmlBold', s:cdBlue, {}, 'bold', {})
+call <sid>hi('htmlItalic', s:cdYellowOrange, {}, 'bold', {})
+
 " JSON:
 call <sid>hi('jsonKeyword', s:cdLightBlue, {}, 'none', {})
 call <sid>hi('jsonEscape', s:cdYellowOrange, {}, 'none', {})
